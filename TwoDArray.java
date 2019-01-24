@@ -22,11 +22,6 @@ public class TwoDArray {
 		 * */
 		a = new int[rows][cols];
 		this.defaultVal = defaultVal;
-//		for (int r=0; r<rows; r++) {
-//			for (int c=0; c<cols; c++) {
-//				a[r][c] = defaultVal;
-//			}
-//		}
 		initArray(defaultVal);
 	}
 		
